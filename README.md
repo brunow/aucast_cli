@@ -10,21 +10,24 @@ Install it with:
 
 ## Usage
 
+First you need to setup Aucast CLI with:
+
+	$ aucast setup
+
     $ aucast
     
     Commands:
-      aucast help [COMMAND]  # Describe available commands or one specific command
-			aucast setup					 # Create a setup config file
-      aucast upload          # Upload audio file(s) (mp3, m4a, http, ...) to Aucast
-			aucast copy						 # Copy file(s) to your Aucast inbox dir
-			aucast version
+		aucast setup				# Create a setup config file
+		aucast upload				# Upload audio file(s) (mp3, m4a, http, ...) to Aucast
+		aucast copy				# Copy file(s) to your Aucast inbox dir
+		aucast version
 
     Options:
       -a, [--address=ADDRESS]  # phone ip address or bonjour service name to reach your phone
       
-    $ aucast upload *.mp3
-    $ aucast upload *.mp3 -a fpg128.local
-    $ aucast upload podcast.mp3
+		$ aucast upload *.mp3
+		$ aucast upload *.mp3 -a fpg128.local
+		$ aucast upload podcast.mp3
 		$ aucast upload https://www.youtube.com/watch?v=W01L70IGBgE
 		$ aucast copy podcast.mp3
 		$ aucast copy *.mp3
