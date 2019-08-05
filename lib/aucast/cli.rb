@@ -76,7 +76,7 @@ module Aucast
       end
     end
     
-    desc 'version', 'Print Rpush version'
+    desc 'version', 'Print Aucast version'
     def version
       puts Aucast::VERSION
     end
