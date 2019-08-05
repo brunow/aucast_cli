@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "aucast"
+
+if ARGV.empty?
+  Aucast::Cli.new.configuration
+else
+  Aucast::Cli.start(ARGV)
+end
