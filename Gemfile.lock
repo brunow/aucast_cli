@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    aucast (0.1.0)
+    aucast (0.1.1)
       rest-client (~> 2.0)
       thor (~> 0.20)
 
@@ -15,14 +15,14 @@ GEM
     byebug (10.0.2)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    domain_name (0.5.20180417)
+    domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     hashdiff (0.3.7)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    mime-types (3.1)
+    mime-types (3.2.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2016.0521)
+    mime-types-data (3.2019.0331)
     minitest (5.11.3)
     minitest-reporters (1.1.19)
       ansi
@@ -38,10 +38,10 @@ GEM
       netrc (~> 0.8)
     ruby-progressbar (1.9.0)
     safe_yaml (1.0.4)
-    thor (0.20.0)
+    thor (0.20.3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.5)
+    unf_ext (0.0.7.6)
     webmock (3.3.0)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
@@ -60,4 +60,4 @@ DEPENDENCIES
   webmock (>= 3.0)
 
 BUNDLED WITH
-   1.16.1
+   1.17.1
