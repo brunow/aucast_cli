@@ -53,6 +53,9 @@ module Aucast
                 --extract-audio \
                 --audio-format mp3 \
                 --audio-quality 0 \
+                --add-metadata \
+                --embed-thumbnail \
+                --output "%(uploader)s %(title)s.%(ext)s" \
               #{url}
           SH
     end
