@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Upload audio file and video media URL to Aucast iOS app.}
   spec.description   = %q{The CLI for uploading audio and video URL to Aucast iOS app, that support youtube-dl.}
-  spec.homepage      = "https://aucast.io"
+  spec.homepage      = "https://github.com/brunow/aucast_cli"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
