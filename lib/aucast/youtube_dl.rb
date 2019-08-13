@@ -51,6 +51,7 @@ module Aucast
             cd #{outdir} && \
             youtube-dl \
                 --extract-audio \
+                --restrict-filenames \
                 --audio-format mp3 \
                 --audio-quality 0 \
                 --add-metadata \
