@@ -31,7 +31,7 @@ GEM
       ruby-progressbar
     netrc (0.11.0)
     public_suffix (3.0.2)
-    rake (10.5.0)
+    rake (13.0.1)
     rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -56,7 +56,7 @@ DEPENDENCIES
   byebug
   minitest (~> 5.11)
   minitest-reporters (>= 1.1)
-  rake (~> 10.0)
+  rake (~> 13.0)
   webmock (>= 3.0)
 
 BUNDLED WITH
